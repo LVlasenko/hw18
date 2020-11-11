@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      input {
+        margin-top: 20px;
+        margin-left: 20px;
+        outline: none;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+
+      .box-parent {
+        margin-top: 50px;
+        margin-left: 120px;
+        width: 50px;
+        border: 1px solid black;
+      }
+
+      .commision-block {
+        background-color: red;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input class="range" type="range" value="0" />
+      <input class="number" type="number" />
+    </div>
+    <div class="box-parent">
+      <div class="white-block"></div>
+      <div class="commision-block"></div>
+    </div>
+  </body>
+  <script src="./practice.js"></script>
+</html>
